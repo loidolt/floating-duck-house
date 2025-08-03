@@ -1,0 +1,37 @@
+# Seed Metadata Configuration
+# Only 3 fields are required: title, type, and stage
+
+# REQUIRED FIELDS
+title: Floating Duck House
+type: project      # project, experiment, note, or writing  
+stage: perennial     # seedling, budding, evergreen, or perennial
+
+# RECOMMENDED FIELDS
+description: A cedar floating duck house made as a Mother's Day present commission.
+tags:
+  - woodworking
+
+# OPTIONAL FIELDS
+featured: true    # Show on homepage
+draft: false       # Hide from listings
+# planted: 2024-01-15  # When you started (YYYY-MM-DD)
+# tended: 2024-03-20   # Last significant update
+
+# PROJECT-SPECIFIC (for type: project)
+status: complete     # active, maintenance, complete, abandoned
+technologies:
+  - SketchUp
+# demoUrl: https://example.com
+
+# EXPERIMENT-SPECIFIC (for type: experiment)  
+# hypothesis: What you're testing
+# findings:
+#   - Result one
+#   - Result two
+# nextSteps:
+#   - Future work
+
+# CONNECTIONS
+# connections:       # Links to other seeds
+#   - related-project
+#   - shared-library
