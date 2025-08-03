@@ -1,0 +1,124 @@
+# Garden Metadata Configuration
+# This file defines how your content appears in the digital garden
+# All fields except title, type, and stage are optional
+
+# REQUIRED FIELDS
+# ---------------
+
+# The display title for your content
+title: Floating Duck House
+
+# Content type - must be one of: project, experiment
+# Note: 'note' and 'writing' types should use GitHub Gists instead
+type: project
+
+# Growth stage of your content
+# - seedling: 🌱 New ideas, early development
+# - budding: 🌿 Active development, work in progress  
+# - evergreen: 🌳 Mature, stable, regularly maintained
+# - perennial: 🌲 Complete but no longer actively maintained
+stage: perennial
+
+# RECOMMENDED FIELDS
+# ------------------
+
+# Brief description (1-2 sentences)
+# If omitted, extracted from README's first paragraph
+description: A cedar floating duck house made as a Mother's Day present commission.
+
+# Additional tags for categorization
+# Use lowercase, hyphenated names
+tags:
+  - woodworking
+
+# When this project was started (YYYY-MM-DD)
+# If omitted, uses repository creation date
+# planted: 2025-05-08
+
+# Last significant update (YYYY-MM-DD)
+# If omitted, uses repository last push date
+# tended: 2025-05-08
+
+# OPTIONAL FIELDS
+# ---------------
+
+# Feature on the garden homepage
+featured: true
+
+# Mark as draft (visible but labeled as draft)
+draft: false
+
+# Connections to other content (repository names)
+# Creates bidirectional links in the knowledge graph
+# connections:
+#   - related-project
+#   - shared-library
+
+# PROJECT-SPECIFIC FIELDS
+# -----------------------
+# Use these for type: project
+
+# Technologies used in the project
+technologies:
+  - SketchUp
+
+# Project status
+# Options: active, maintenance, complete, abandoned
+status: complete
+
+# Live demo URL
+# demoUrl: https://your-demo.example.com
+
+# Main repository URL (if different from current)
+# repository: https://github.com/username/main-repo
+
+# EXPERIMENT-SPECIFIC FIELDS
+# --------------------------
+# Use these for type: experiment
+
+# What you're trying to prove or explore
+# hypothesis: Can we render 1M particles at 60fps using WebGL?
+
+# Key findings from your experiment
+# findings:
+#   - Transform feedback enables GPU-based physics
+#   - Mobile devices limited to ~100k particles
+#   - Memory usage scales linearly
+
+# Potential future directions
+# nextSteps:
+#   - Implement spatial partitioning
+#   - Add particle collision detection
+#   - Try WebGPU for better performance
+
+# PERENNIAL-SPECIFIC FIELDS
+# -------------------------
+# Use these when stage: perennial
+
+# When the project was completed
+# completedDate: 2023-11-15
+
+# Key takeaways from the project
+# lessonsLearned:
+#   - Always implement proper error boundaries
+#   - User testing revealed unexpected use cases
+#   - TypeScript saved hours of debugging
+
+# CUSTOM FIELDS
+# -------------
+# Add any additional fields you need
+# All fields are preserved and available in templates
+
+# Examples:
+# teamSize: 3
+# primaryLanguage: typescript
+# license: MIT
+# blogPost: https://blog.example.com/project-retrospective
+
+# NOTES
+# -----
+# 1. You can also use frontmatter in your README.md instead of this file
+# 2. Frontmatter values override meta.yml values
+# 3. Dates should be in ISO format (YYYY-MM-DD)
+# 4. Keep tag names simple and lowercase
+# 5. This file is optional if using frontmatter

@@ -1,12 +1,3 @@
----
-published: true
-status: complete
-date: 05/08/2021
-tags: woodworking
-description: A cedar floating duck house made as a Mother's Day present commission.
-slug: floating-duck-house
----
-
 # Floating Duck House
 
 A cedar floating duck house made as a Mother's Day present commission.
